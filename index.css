@@ -5,3 +5,37 @@
     #05acd3
     #bbbf95 */
 
+li {
+    list-style: none outside;
+    display: inline;
+    vertical-align: baseline;
+    background: transparent;
+}
+ul{
+    list-style: none outside;
+    box-sizing: border-box;
+}
+
+.main_menu {
+    clear: none;
+    position: absolute;
+    z-index: 100;
+    line-height: 30px;
+    height: 100%;
+    margin: 0;
+    right: 0;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
