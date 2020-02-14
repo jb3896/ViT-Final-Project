@@ -5,6 +5,12 @@
     #05acd3
     #bbbf95 */
 
+* {
+    margin: 0;
+    padding 0;
+    box-sizing: border-box;
+}
+
 li {
     list-style: none outside;
     display: inline;
@@ -14,28 +20,28 @@ li {
 ul{
     list-style: none outside;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+    justify-content: space-evenly;
+    position: sticky;
 }
 
 .main_menu {
-    clear: none;
-    position: absolute;
-    z-index: 100;
-    line-height: 30px;
-    height: 100%;
-    margin: 0;
-    right: 0;
+    font-size: 20px;
+    /* position: fixed;
+    top: 0;
+    width: 100%; */
 }
 
-nav {
+/* nav {
     margin: 0;
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
-
-body {
-    font-family: 'Open Sans', 'HelveticaNeue', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+} */
 
