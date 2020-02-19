@@ -7,7 +7,7 @@
 
 * {
     margin: 0;
-    padding 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -17,6 +17,7 @@ li {
     vertical-align: baseline;
     background: transparent;
 }
+
 ul.header_list,
 ul.header_nav_list {
     list-style: none outside;
