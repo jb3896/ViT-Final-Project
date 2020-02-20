@@ -18,6 +18,10 @@ li {
     background: transparent;
 }
 
+footer {
+    background-color: #bbbf95;
+}
+
 ul.header_list,
 ul.header_nav_list {
     list-style: none outside;
@@ -35,6 +39,16 @@ ul.header_nav_list {
     /* position: fixed;
     top: 0;
     width: 100%; */
+}
+
+.sponsor_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.sponsor_image {
+    width: 13rem;
+    height: 8rem;
 }
 
 /* nav {
