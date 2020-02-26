@@ -49,6 +49,11 @@ footer  {
     max-width: 1200px;
     margin: 0 auto;
     justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.sponsor_group {
+    width: 100%;
 }
 
 em {
@@ -68,8 +73,20 @@ a {
     text-decoration: none;
 }
 
+a.active {
+    background-color: #0486db;
+    color: white;
+    padding: 0.5rem;
+}
+
 a:hover {
     text-decoration: underline;
+    color: white;
+}
+
+.content {
+    font-size: 1.3rem;
+    margin-top: 6rem;
 }
 
 .header_list {
@@ -79,6 +96,8 @@ a:hover {
     flex-direction: row;
     flex: 1;
     justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
 }
 
 
@@ -92,22 +111,80 @@ a:hover {
     position: sticky;
 }
 
-.header {
+#mainList {
     background-color: #1f1641;
+    position: fixed;
+    top: 0;
+    width: 100%;
     padding: 1rem;
+    z-index: 999;
 }
 
 .main_menu {
     font-size: 1.65rem;
     overflow: hidden;
-    /* position: fixed; */
-    /* top: 0;
-    width: 100%; */
 }
 
 .main_images img {
     width: 100%;
     z-index: 0;
+    margin-top: 0;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: white;
+    width: 100%;
+}
+
+.form {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.body_width_container {
+    margin: 0 auto;
+    max-width: 950px;
+}
+
+.post_entry {
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    /* max-width: 950px; */
+    /* margin-top: 1rem;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    margin-left: auto; */
+}
+
+.main_image_container {
+    max-width: 50%;
+}
+
+.main_image_container img {
+    width: 100%;
+}
+
+.container_text {
+    max-width: 50%;
+    padding-left: 2rem;
+}
+
+.form_text {
+    max-width: 50%;
+    padding-left: 2rem;
+}
+
+.form_entries {
+    max-width: 100;
+    size: 100;
+    height: 2rem;
+}
+
+#message {
+    height: 9rem;
 }
 
 .sponsor_row {
@@ -131,10 +208,6 @@ a:hover {
     padding-top: 60px;
 }
 
-#navbar a.active {
-    background-color: #0486db;
-}
-
 #navbar li a {
     display: block;
   text-align: center;
@@ -149,4 +222,3 @@ a:hover {
     flex-direction: row;
     justify-content: center;
 } */
-
