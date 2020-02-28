@@ -145,6 +145,11 @@ a:hover {
     width: 100%;
 }
 
+.seasons_container {
+    margin: 0 auto;
+    width: 100%;
+}
+
 .form {
     margin: 0 auto;
     width: 100%;
@@ -153,6 +158,11 @@ a:hover {
 .body_width_container {
     margin: 0 auto;
     max-width: 950px;
+}
+
+.seasons_width_container {
+    margin: 0 auto;
+    max-width: 1150px;
 }
 
 .post_entry {
@@ -194,6 +204,44 @@ a:hover {
 
 #message {
     height: 9rem;
+}
+
+.table_container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    width: 1150px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+tbody tr {
+    width: 6.667%;
+    height: 8rem;
+}
+
+thead tr {
+    width: 20%;
+}
+
+td img {
+    max-width: 150px;
+    padding: 0.5rem;
+}
+
+.green {
+    background-color: lightgreen;
+    color: darkgreen;
 }
 
 .sponsor_row {
