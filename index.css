@@ -13,7 +13,13 @@
 
 body {
     background-color: #05acd3;
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 1.35;
+    font-family: 'Open Sans', 'Arial', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Krona One', 'Arial', sans-serif;
 }
 
 .main_body {
@@ -163,6 +169,11 @@ a:hover {
 
 .main_image_container {
     max-width: 50%;
+}
+
+.home_images {
+    display: flex;
+    align-items: center;
 }
 
 .main_image_container img {
