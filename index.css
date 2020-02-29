@@ -227,11 +227,15 @@ table, th, td {
 
 tbody tr {
     width: 6.667%;
-    height: 8rem;
+    height: 9rem;
 }
 
 thead tr {
     width: 20%;
+}
+
+table th.months {
+    width: 4.5rem;
 }
 
 td img {
@@ -242,6 +246,8 @@ td img {
 .green {
     background-color: lightgreen;
     color: darkgreen;
+    font-weight: bold;
+    font-size: 2.5rem;
 }
 
 .sponsor_row {
